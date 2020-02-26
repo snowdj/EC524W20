@@ -1,3 +1,4 @@
+
 # EC 524, Winter 2020
 
 Welcome to Economics 524 (424): Prediction and machine-learning in econometrics, taught by [Ed Rubin](https://edrub.in).
@@ -71,6 +72,49 @@ Welcome to Economics 524 (424): Prediction and machine-learning in econometrics,
 
 **Formats** [.html](https://raw.githack.com/edrubin/EC524W20/master/lecture/003/003-slides.html) | [.pdf](https://raw.githack.com/edrubin/EC524W20/master/lecture/003/003-slides.pdf) | [.Rmd](https://raw.githack.com/edrubin/EC524W20/master/lecture/003/003-slides.Rmd)
 
+[**004 - Linear regression strikes back**](https://raw.githack.com/edrubin/EC524W20/master/lecture/004/004-slides.html)
+
+1. Returning to linear regression
+1. Model performance and overfit
+1. Model selection—best subset and stepwise
+1. Selection criteria
+
+**Formats** [.html](https://raw.githack.com/edrubin/EC524W20/master/lecture/004/004-slides.html) | [.pdf](https://raw.githack.com/edrubin/EC524W20/master/lecture/004/004-slides.pdf) | [.Rmd](https://raw.githack.com/edrubin/EC524W20/master/lecture/004/004-slides.Rmd)
+
+[**005 - Shrinkage methods**](https://raw.githack.com/edrubin/EC524W20/master/lecture/005/005-slides.html)
+
+1. Ridge regression
+1. Lasso
+1. Elasticnet
+
+**Formats** [.html](https://raw.githack.com/edrubin/EC524W20/master/lecture/005/005-slides.html) | [.pdf](https://raw.githack.com/edrubin/EC524W20/master/lecture/005/005-slides.pdf) | [.Rmd](https://raw.githack.com/edrubin/EC524W20/master/lecture/005/005-slides.Rmd)
+
+[**006 - Classification intro**](https://raw.githack.com/edrubin/EC524W20/master/lecture/006/006-slides.html)
+
+1. Introduction to classification
+1. Why not regression?
+1. But also: Logistic regression
+1. Assessment: Confusion matrix, assessment criteria, ROC, and AUC
+
+**Formats** [.html](https://raw.githack.com/edrubin/EC524W20/master/lecture/006/006-slides.html) | [.pdf](https://raw.githack.com/edrubin/EC524W20/master/lecture/006/006-slides.pdf) | [.Rmd](https://raw.githack.com/edrubin/EC524W20/master/lecture/006/006-slides.Rmd)
+
+[**007 - Decision trees**](https://raw.githack.com/edrubin/EC524W20/master/lecture/007/007-slides.html)
+
+1. Introduction to trees
+1. Regression trees
+1. Classification trees—including the Gini index, entropy, and error rate
+
+**Formats** [.html](https://raw.githack.com/edrubin/EC524W20/master/lecture/007/007-slides.html) | [.pdf](https://raw.githack.com/edrubin/EC524W20/master/lecture/007/007-slides.pdf) | [.Rmd](https://raw.githack.com/edrubin/EC524W20/master/lecture/007/007-slides.Rmd)
+
+[**008 - Ensemble methods**](https://raw.githack.com/edrubin/EC524W20/master/lecture/008/008-slides.html)
+
+1. Introduction
+1. Bagging
+1. Random forests
+1. Boosting
+
+**Formats** [.html](https://raw.githack.com/edrubin/EC524W20/master/lecture/008/008-slides.html) | [.pdf](https://raw.githack.com/edrubin/EC524W20/master/lecture/008/008-slides.pdf) | [.Rmd](https://raw.githack.com/edrubin/EC524W20/master/lecture/008/008-slides.Rmd)
+
 ## Projects
 
 **Intro** [Predicting sales price in housing data (Kaggle)](https://github.com/edrubin/EC524W20/tree/master/projects/kaggle-house-prices)
@@ -80,6 +124,18 @@ Welcome to Economics 524 (424): Prediction and machine-learning in econometrics,
 You will need to sign into you Kaggle account and then hit "Copy and Edit" to add the notebook to your account.
 <br>
 *Due* 21 January 2020 before midnight.
+
+**002** [Cross validation and linear regression (Kaggle notebook)](https://www.kaggle.com/edwardarubin/ec524-cross-validation)
+<br>
+*Due* 04 February 2020 before midnight.
+
+**003** [Model selection and shrinkage (Kaggle notebook)](https://www.kaggle.com/edwardarubin/ec524-shrinkage/)
+<br>
+*Due* 13 February 2020 before midnight.
+
+**004** [Predicting heart disease (Kaggle competition)](https://github.com/edrubin/EC524W20/tree/master/projects/kaggle-heart-disease) | [Competition](https://www.kaggle.com/c/ec524-heart-disease/)
+
+[**Class project**](https://github.com/edrubin/EC524W20/tree/master/projects/class-project)
 
 ## Lab notes
 
@@ -96,18 +152,30 @@ You will need to sign into you Kaggle account and then hit "Copy and Edit" to ad
 1. Finish [previous lab on `dplyr`](https://raw.githack.com/edrubin/EC524W20/master/lab/000-cleaning/000-slides.html#48)
 2. [Working in (Kaggle) notebooks](https://www.kaggle.com/voodoojanus/ec524-jan-17-20)
 
-**002 - Cross validation and simulation**
+[**002 - Cross validation and simulation**](https://raw.githack.com/edrubin/EC524W20/master/lab/002-resampling/002-slides.html)
 
 1. Cross-validation review
-2. CV and interdependence
-3. Introduction to learning via simulation
-4. Simulation: CV and dependence
+1. CV and interdependence
+1. Writing functions
+1. Introduction to learning via simulation
+1. Simulation: CV and dependence
 
 **Formats** [.html](https://raw.githack.com/edrubin/EC524W20/master/lab/002-resampling/002-slides.html) | [.pdf](https://raw.githack.com/edrubin/EC524W20/master/lab/002-resampling/002-slides.pdf) | [.Rmd](https://raw.githack.com/edrubin/EC524W20/master/lab/002-resampling/002-slides.Rmd)
 
 **Additional** [R script for simulation](https://raw.githack.com/edrubin/EC524W20/master/lab/002-resampling/cv-sim.R)
 
-## Problem sets
+**003**
+
+**004**
+
+[**005** - Data cleaning and `dplyr`](https://raw.githack.com/CMLennon/EC524W20/master/lab/003-DPLYR-part-2-electric-boogaloo/001-slides.html#1)
+
+**Additional** [Data cleaning in R](https://www.kaggle.com/edwardarubin/ec524-clean-data/) (with `caret`)
+
+- Converting numeric variables to categorical
+- Converting categorical variables to dummies
+- Imputing missing values
+- Standardizing variables (centering and scaling)
 
 ## Additional resources
 
@@ -120,6 +188,7 @@ You will need to sign into you Kaggle account and then hit "Copy and Edit" to ad
 
 ### Data Science
 
+- Workflow diagram: [.pdf](https://raw.githack.com/edrubin/EC524W20/master/resources/data-workflow.pdf) | [.png](https://raw.githack.com/edrubin/EC524W20/master/resources/data-workflow.pdf) | [.ai](https://raw.githack.com/edrubin/EC524W20/master/resources/data-workflow.ai)
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) by Jake VanderPlas
 - [Elements of AI](https://course.elementsofai.com/)
 - [Caltech professor Yaser Abu-Mostafa: Lectures about machine learning on YouTube](https://www.youtube.com/user/caltech/search?query=Yaser+Abu-Mostafa)
