@@ -1,7 +1,7 @@
 
 # EC 524, Winter 2020
 
-Welcome to Economics 524 (424): Prediction and machine-learning in econometrics, taught by [Ed Rubin](https://edrub.in).
+Welcome to Economics 524 (424): Prediction and machine-learning in econometrics, taught by [Ed Rubin](https://edrub.in) and [Connor Lennon](https://economics.uoregon.edu/profile/clennon/).
 
 ## Schedule
 
@@ -115,9 +115,20 @@ Welcome to Economics 524 (424): Prediction and machine-learning in econometrics,
 
 **Formats** [.html](https://raw.githack.com/edrubin/EC524W20/master/lecture/008/008-slides.html) | [.pdf](https://raw.githack.com/edrubin/EC524W20/master/lecture/008/008-slides.pdf) | [.Rmd](https://raw.githack.com/edrubin/EC524W20/master/lecture/008/008-slides.Rmd)
 
+[**009 - Support vector machines**](https://raw.githack.com/edrubin/EC524W20/master/lecture/009/009-slides.html)
+
+1. Hyperplanes and classification
+2. The maximal margin hyperplane/classifier
+3. The support vector classifier
+4. Support vector machines
+
+**Formats** [.html](https://raw.githack.com/edrubin/EC524W20/master/lecture/009/009-slides.html) | [.pdf](https://raw.githack.com/edrubin/EC524W20/master/lecture/009/009-slides.pdf) | [.Rmd](https://raw.githack.com/edrubin/EC524W20/master/lecture/009/009-slides.Rmd)
+
 ## Projects
 
 **Intro** [Predicting sales price in housing data (Kaggle)](https://github.com/edrubin/EC524W20/tree/master/projects/kaggle-house-prices)
+
+**Help:** [Kaggle notebooks](https://rpubs.com/Clennon/KagNotes)
 
 **001** [KNN and loss (Kaggle notebook)](https://www.kaggle.com/edwardarubin/ec524-knn-loss)
 <br>
@@ -134,8 +145,13 @@ You will need to sign into you Kaggle account and then hit "Copy and Edit" to ad
 *Due* 13 February 2020 before midnight.
 
 **004** [Predicting heart disease (Kaggle competition)](https://github.com/edrubin/EC524W20/tree/master/projects/kaggle-heart-disease) | [Competition](https://www.kaggle.com/c/ec524-heart-disease/)
+*Due* 20 February 2020 before midnight.
+
+**005** [Classifying customer churn (Kaggle competition)](https://github.com/edrubin/EC524W20/tree/master/projects/kaggle-churn) | [Competition](https://www.kaggle.com/t/6b275809d36248e49d11bea483394c42)
+*Due* In-class 27 February 2020.
 
 [**Class project**](https://github.com/edrubin/EC524W20/tree/master/projects/class-project)
+*Due* 12 March 2020 before class.
 
 ## Lab notes
 
@@ -151,6 +167,7 @@ You will need to sign into you Kaggle account and then hit "Copy and Edit" to ad
 
 1. Finish [previous lab on `dplyr`](https://raw.githack.com/edrubin/EC524W20/master/lab/000-cleaning/000-slides.html#48)
 2. [Working in (Kaggle) notebooks](https://www.kaggle.com/voodoojanus/ec524-jan-17-20)
+3. [Kaggle contest notes](https://rpubs.com/Clennon/KagNotes)
 
 [**002 - Cross validation and simulation**](https://raw.githack.com/edrubin/EC524W20/master/lab/002-resampling/002-slides.html)
 
